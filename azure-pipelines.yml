@@ -85,5 +85,5 @@ stages:
             displayName: 'Azure App Service Deploy: website'
             inputs:
               azureSubscription: 'azure service connection'
-              appName: '$(WebAppName)'
+              appName: 'WebAppName'
               package: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/*.zip'
